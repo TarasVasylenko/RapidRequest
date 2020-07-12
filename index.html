@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="de">
+
+
+
+<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="description" content="Rapid Request UG: Dev teams staffing simplified"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+				
+  		<!-- SITE TITLE -->
+		<title>Rapid Request</title>
+							
+		<!-- FAVICON AND TOUCH ICONS  -->
+<!-- 		<link rel="shortcut icon" href="images/agency/rr_favicon.png" type="image/x-icon">
+		<link rel="icon" href="images/agency/rr_favicon.png" type="image/x-icon">
+		<link rel="apple-touch-icon" sizes="152x152" href="images/agency/rr_favicon-152.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="images/agency/rr_favicon-120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="images/agency/rr_favicon-76.png">
+		<link rel="apple-touch-icon" href="images/agency/rr_ios_favicon.png"> -->
+
+		<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Patua+One&display=swap" rel="stylesheet">
+<!--		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet"> 	-->
+<!--		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">-->
+
+		<!-- BOOTSTRAP CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+				
+		<!-- FONT ICONS -->
+		<link href="css/fa-svg-with-js.css" rel="stylesheet">
+		<link href="css/tonicons.css" rel="stylesheet">
+
+		<!-- PLUGINS STYLESHEET -->
+		<link href="css/animate.css" rel="stylesheet">
+
+		<!-- TEMPLATE CSS -->
+		<link href="css/spinner.css" rel="stylesheet">	
+		<link href="css/style.css" rel="stylesheet"> 	
+
+		<!-- RESPONSIVE CSS -->
+		<link href="css/responsive.css" rel="stylesheet"> 
+
+	</head>
+
+	<body>
+
+
+	<svg display="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="">
+		<defs>
+			<symbol id="icon-linkedin2" viewBox="0 0 32 32">
+				<path d="M12 12h5.535v2.837h0.079c0.77-1.381 2.655-2.837 5.464-2.837 5.842 0 6.922 3.637 6.922 8.367v9.633h-5.769v-8.54c0-2.037-0.042-4.657-3.001-4.657-3.005 0-3.463 2.218-3.463 4.509v8.688h-5.767v-18z"></path>
+				<path d="M2 12h6v18h-6v-18z"></path>
+				<path d="M8 7c0 1.657-1.343 3-3 3s-3-1.343-3-3c0-1.657 1.343-3 3-3s3 1.343 3 3z"></path>
+			</symbol>
+			<symbol id="icon-xing2" viewBox="0 0 32 32">
+				<path d="M4.862 6.319c-0.275 0-0.513 0.1-0.631 0.287-0.119 0.2-0.1 0.45 0.025 0.706l3.119 5.4c0.006 0.012 0.006 0.019 0 0.025l-4.9 8.662c-0.125 0.256-0.119 0.512 0 0.706 0.119 0.188 0.325 0.313 0.6 0.313h4.613c0.688 0 1.025-0.469 1.256-0.894 0 0 4.794-8.481 4.981-8.813-0.019-0.031-3.175-5.531-3.175-5.531-0.231-0.406-0.575-0.862-1.287-0.862h-4.6z"></path>
+				<path d="M24.25 0c-0.688 0-0.988 0.431-1.238 0.881 0 0-9.944 17.631-10.269 18.212 0.019 0.031 6.556 12.031 6.556 12.031 0.231 0.406 0.581 0.881 1.288 0.881h4.613c0.275 0 0.494-0.106 0.613-0.294 0.125-0.2 0.119-0.456-0.012-0.712l-6.5-11.894c-0.006-0.012-0.006-0.019 0-0.031l10.219-18.069c0.125-0.256 0.131-0.512 0.012-0.713-0.119-0.188-0.337-0.294-0.613-0.294h-4.669z"></path>
+			</symbol>
+	</defs>
+	</svg>
+
+		<!-- PRELOADER SPINNER
+		============================================= -->
+		<div id="loader-wrapper">
+			<div id="loader">
+				<div class="cssload-spinner">
+					<div class="cssload-ball cssload-ball-1"></div>
+					<div class="cssload-ball cssload-ball-2"></div>
+					<div class="cssload-ball cssload-ball-3"></div>
+					<div class="cssload-ball cssload-ball-4"></div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- PAGE CONTENT
+		============================================= -->	
+		<div id="page" class="page">
+
+
+			<!-- HEADER
+			============================================= -->
+			<header id="header" class="header">
+				<nav class="navbar navbar-index fixed-top navbar-expand-lg navbar-dark bg-tra hover-menu">
+					<div class="container">
+
+						<!-- LOGO IMAGE -->
+						<!-- For Retina Ready displays take a image with double the amount of pixels that your image will be displayed (e.g 268 x 60 pixels) -->
+<!-- 				 		<a href="#start" class="navbar-brand logo-black"><img src="images/logo-blue.png" width="60" height="60" alt="header-logo"></a>
+				 		<a href="#start" class="navbar-brand logo-white"><img src="images/logo_white.png" width="60" height="60" alt="header-logo"></a> -->
+
+				 		<a href="#start" class="navbar-brand logo-black">Rapid Request</a>
+				 		<a href="#start" class="navbar-brand logo-white">Rapid Request</a>
+
+				 		<!-- Responsive Menu Button -->
+				 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				   		 	<span class="navbar-bar-icon"><i class="fas fa-bars"></i></span>
+				  		</button>
+
+				  		<!-- Navigation Menu -->
+				  		<div id="navbarSupportedContent" class="collapse navbar-collapse txt-700 rose-hover">				  			
+					   		<ul class="navbar-nav ml-auto">
+									<li class="nav-item nl-simple"><a class="nav-link" href="#start">Start</a></li>
+									<li class="nav-item nl-simple"><a class="nav-link" href="#concept">Konzept</a></li>
+					     		<li class="nav-item nl-simple"><a class="nav-link" href="#services">Leistungen</a></li>
+							    <li class="nav-item nl-simple"><a class="nav-link" href="#footer-2">Kontakt</a></li>
+									<li class="nav-item nl-simple"><a class="nav-link" href="impressum.html">Impressum</a></li>
+									<li class="nav-item nl-simple"><a class="nav-link" href="datenschutz.html">Datenschutz</a></li>
+									<li class="social-link-block">
+										<a href="https://www.linkedin.com/company/rpdrqst/" target="_blank" class="social-link">
+											<svg class="icon"><use xlink:href="#icon-linkedin2"></use></svg>
+										</a>
+									</li>
+									<li class="social-link-block">
+										<a href="https://www.xing.com/profile/Alexander_Savenok" target="_blank" class="social-link">
+											<svg class="icon"><use xlink:href="#icon-xing2"></use></svg>
+										</a>
+									</li>
+								</ul>
+					    </div>	<!-- End Navigation Menu -->
+
+
+					</div>	  <!-- End container -->
+				</nav>	   <!-- End navbar -->
+			</header>	<!-- END HEADER -->
+
+
+
+
+			<!-- HERO-3
+			============================================= -->
+			<main>
+			<section id="start" class="bg-scroll hero-section division">
+				<div class="container">		
+					<div class="row d-flex align-items-center">
+
+
+						<!-- HERO TEXT -->
+						<div class="col-xl-8">
+							<div class="hero-txt white-color">
+
+								<!-- Title -->
+								<h1 class="rr__title">
+									Sie haben ein Ziel? Wir führen Sie dahin!</br>
+									Sie suchen nach digitalen Lösungen für die Entwicklung ihres Business?</br>
+									Wir bieten professionelle Umsetzung für ihre Projekte durch erfahrene Softwareentwickler und Designer.
+								</h1>
+
+								<!-- Text -->	
+								<p class="p-lg">Von der Ideenskizze über Planung konkreter Arbeitsschritte bis hin zur Fertigstellung:
+									unsere Profis unterstützen Ihre digitale Projekte auf allen Entwicklungsstadien.
+								</p>
+
+								<!-- Modal Video Link -->
+<!--								<div class="modal-video">								-->
+<!--									<a class="video-popup2" href="https://www.youtube.com/watch?v=7e90gBu4pas"> &lt;!&ndash; Change the video link HERE!!! &ndash;&gt;	-->
+<!--										<i class="white-color fas fa-play-circle"></i>-->
+<!--										Watch Our Video			-->
+<!--										<span>duration: 2:40 min</span>							-->
+<!--									</a>									-->
+<!--								</div>-->
+
+							</div>	
+						</div>	<!-- END HERO TEXT -->
+
+						<!-- HERO FORM -->
+						<div id="hero-form" class="col-md-8 offset-md-2 col-xl-4 offset-xl-0">
+							<div class="hero-form">
+								<form class="row register-form">
+
+									<!-- Title -->
+									<h5 class="h5-xl">PROJEKTANFRAGE</h5>
+
+									<!-- Text -->
+									<p>Füllen Sie bitte die nachstehenden Felder aus, damit wir Sie innerhalb von 24 Stunden kontaktieren
+										können. Das ist kein Abo. Sie kriegen von uns kein Spam.</p>
+
+									<!-- Form Input -->
+									<div class="col-md-12">
+										<input class="form-control name" type="text" name="name" placeholder="Name">
+									</div>
+
+									<!-- Form Input -->
+									<div class="col-md-12">
+										<input class="form-control email" type="text" name="email" placeholder="E-Mail Adresse">
+									</div>
+
+									<!-- Form Input -->
+									<div class="col-md-12">
+										<input class="form-control phone" type="text" name="phone" placeholder="Telefonnummer">
+									</div>
+
+									<div class="form-check">
+										<input type="checkbox" class="form-check-input agree" name="agree" id="agree">
+										<label class="form-check-label" for="agree">
+											Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen, verstanden und stimme zu.
+										</label>
+									</div>
+
+									<div class="phone-or-email d-none">E-mail Adresse oder Telefonnummer erforderlich</div>
+
+									<!-- Form Submit Button -->
+									<div class="col-md-12">
+										<button type="submit" class="btn btn-arrow">
+											<span>Absenden <i class="fas fa-angle-double-right"></i></span>
+										</button>
+									</div>
+
+									<!-- Form Message -->
+									<div class="contact-form-msg text-center">
+										<span class="loading"></span>
+									</div>
+
+								</form>
+
+							</div>
+						</div>
+						<!-- END HERO FORM -->
+
+
+
+
+					</div>	   <!-- End row -->	
+				</div> 	   <!-- End container -->
+			</section>	<!-- END HERO-3 -->	
+
+
+
+
+			<!-- SERVICES-4
+			============================================= -->
+			<section id="concept" class="rr-concept">
+				<h3 class="rr-h3 wow fadeInUp" data-wow-delay="0.2s">Konzept</h3>
+				<div class="container">
+			 		<div class="row">
+
+					 	<!-- SERVICE BOX #1 -->
+						<div class="col-md-6 col-lg-4">
+							<div class="sbox-4 wow fadeInUp" data-wow-delay="0.1s">
+								<!-- Title -->
+								<h5 class="h5-xl">Im Fokus<span class="rose-color">.</span></h5>
+								<!-- Text -->
+								<p class="grey-color">Im dynamischen Geschäftsleben kennt niemand Ihr Unternehmen besser als Sie selbst.
+									Sie wissen, in welche Richtung es sich entwickeln soll und haben dazu eigene Ideen.
+								</p>
+							</div>							
+						</div>
+
+						<!-- SERVICE BOX #2 -->
+						<div class="col-md-6 col-lg-4">
+							<div class="sbox-4 wow fadeInUp" data-wow-delay="0.2s">
+								<!-- Title -->
+								<h5 class="h5-xl">Effizient<span class="rose-color">.</span></h5>
+								<!-- Text -->
+								<p class="grey-color">Ihre Zeit kostet Geld und ist gleichzeitig unbezahlbar. Das ist uns bewusst.</p>
+							</div>							
+						</div>
+
+						<!-- SERVICE BOX #3 -->
+						<div class="col-md-6 col-lg-4">
+							<div class="sbox-4 wow fadeInUp" data-wow-delay="0.3s">
+								<!-- Title -->
+								<h5 class="h5-xl">Kompetent<span class="rose-color">.</span></h5>
+								<!-- Text -->
+								<p class="grey-color">Unser vernetztes Experten-Team steht für die digitale Umsetzung Ihrer Ideen mit
+									all seinem Know-how bereit.
+								</p>
+							</div>							
+						</div>
+
+						<!-- SERVICE BOX #4 -->
+						<div class="col-md-6 col-lg-4">
+							<div class="sbox-4 wow fadeInUp" data-wow-delay="0.4s">
+								<!-- Title -->
+								<h5 class="h5-xl">Kontrolle<span class="rose-color">.</span></h5>
+								<!-- Text -->
+								<p class="grey-color">Mittels regelmäßiger Tätigkeitsberichte halten wir Sie ständig über den
+									Fortschritt unserer Arbeit an Ihrem Projekt auf dem Laufenden.
+								</p>
+							</div>							
+						</div>
+
+						<!-- SERVICE BOX #5 -->
+						<div class="col-md-6 col-lg-4">
+							<div class="sbox-4 wow fadeInUp" data-wow-delay="0.5s">
+								<!-- Title -->
+								<h5 class="h5-xl">Überblick<span class="rose-color">.</span></h5>
+								<!-- Text -->
+								<p class="grey-color">Sie haben permanent den Überblick und Einfluss auf die einzelne Arbeitsschritte,
+									so dass die Umsetzung Ihres Projekts exakt Ihren Vorstellungen entspricht.
+								</p>
+							</div>							
+						</div>
+
+						<!-- SERVICE BOX #6 -->
+						<div class="col-md-6 col-lg-4">
+							<div class="sbox-4 wow fadeInUp" data-wow-delay="0.6s">
+								<!-- Title -->
+								<h5 class="h5-xl">Anpassungsf&Auml;hig<span class="rose-color">.</span></h5>
+								<!-- Text -->
+								<p class="grey-color">Unser Arbeitstempo passt sich Ihrem Geschäft an, unsere flexible Kommunikation
+									gewährleistet ständigen Austausch.
+								</p>
+							</div>	
+						</div>
+
+			 		</div>	   <!-- End row -->
+			 	</div>	   <!-- End container -->		
+			</section>	<!-- END SERVICES-4 -->	
+
+
+
+		<section class="rr-services" id="services">
+			<h3 class="rr-h3 wow fadeInUp" data-wow-delay="0.2s">Leistungen</h3>
+<!--			<div class="rr-services__bg"></div>-->
+			<div class="container rr-services__box">
+				<div class="rr-services__item sbox-4 wow fadeInUp" data-wow-delay="0.2s">
+					<img src="images/agency/services-development.png" alt=" ">
+					<h4>Softwareentwicklung</h4>
+				</div>
+				<div class="rr-services__item sbox-4 wow fadeInUp" data-wow-delay="0.4s">
+					<img src="images/agency/services-cross.png" alt=" ">
+					<h4>Cross-Plattform-Entwicklung</h4>
+				</div>
+				<div class="rr-services__item sbox-4 wow fadeInUp" data-wow-delay="0.6s">
+					<img src="images/agency/services-apps.png" alt=" ">
+					<h4>Apps</h4>
+				</div>
+				<div class="rr-services__item sbox-4 wow fadeInUp" data-wow-delay="0.8s">
+					<img src="images/agency/services-brending.png" alt=" ">
+					<h4>Branding, Brand Identity</h4>
+				</div>
+				<div class="rr-services__item sbox-4 wow fadeInUp" data-wow-delay="0.2s">
+					<img src="images/agency/services-design.png" alt=" ">
+					<h4>Design</h4>
+				</div>
+				<div class="rr-services__item sbox-4 wow fadeInUp" data-wow-delay="0.4s">
+					<img src="images/agency/services-ui-ux.png" alt=" ">
+					<h4>UI/UX Design</h4>
+				</div>
+				<div class="rr-services__item sbox-4 wow fadeInUp" data-wow-delay="0.6s">
+					<img src="images/agency/services-backend.png" alt=" ">
+					<h4>Web- und Backend-Entwicklung</h4>
+				</div>
+			</div>
+		</section>
+
+			</main>
+
+
+			<!-- FOOTER-2
+			============================================= -->
+			<footer id="footer-2" class="bg-scroll bg-dark p-top-100  division">
+
+				<div class="container white-color">
+
+					<h3 class="rr-h3 wow fadeInUp" data-wow-delay="0.2s">Kontakt</h3>
+
+					<h4 class="wow fadeInUp" data-wow-delay="0.2s">Senden Sie uns Ihre Anfrage – wir melden uns innerhalb von 24 Stunden zurück!</h4>
+
+							<form class="rr__contact-form wow fadeInUp" data-wow-delay="0.2s">
+								<div class="rr__contact-item">
+									<input class="contact-name" type="text" name="contact_name" placeholder="Name, Nachname">
+								</div>
+								<div class="rr__contact-item">
+									<input class="contact-firma" type="text" name="contact_firma" placeholder="Firma">
+								</div>
+								<div class="rr__contact-item">
+									<input class="contact-phone" type="text" name="contact_phone" placeholder="Telefon">
+								</div>
+								<div class="rr__contact-item">
+									<input class="contact-email" type="text" name="contact_email" placeholder="E-Mail">
+								</div>
+								<div class="rr__contact-item rr__contact-item--msg">
+									<textarea class="contact-message" name="contact_message" rows="6" placeholder="Nachricht"></textarea>
+								</div>
+								<div class="rr__contact-agree">
+									<input type="checkbox" class="contact-agree" name="contact_agree">&nbsp;&nbsp;
+									<span>Ich habe die &nbsp;<a href="datenschutz.html">Datenschutzerklärung</a>&nbsp; gelesen, verstanden und stimme zu.</span>
+								</div>
+								<button type="submit" class="btn btn-arrow">
+									<span>Absenden <i class="fas fa-angle-double-right"></i></span>
+								</button>
+								<span class="contact-form-msg text-center">
+									<span class="contact-loading"></span>
+								</span>
+							</form>
+
+
+					<!-- BOTTOM FOOTER -->
+					<div class="bottom-footer">
+
+
+						<!-- FOOTER COPYRIGHT -->
+
+							<div class="footer-copyright">
+								<p class="m-bottom-0">&copy; 2020 <span>Rapid Request</span> UG (haftungsbeschränkt). Alle Rechte Vorbehalten.</p>
+							</div>
+
+						<!-- FOOTER LINKS -->
+								<ul class="clearfix">
+									<li><a href="impressum.html">Impressum</a></li>
+									<li><a href="datenschutz.html">Datenschutz</a></li>
+									<li>
+										<a href="https://www.linkedin.com/company/rpdrqst/" target="_blank" class="social-link">
+											<svg class="icon"><use xlink:href="#icon-linkedin2"></use></svg>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.xing.com/profile/Alexander_Savenok" target="_blank" class="social-link">
+											<svg class="icon"><use xlink:href="#icon-xing2"></use></svg>
+										</a>
+									</li>
+								</ul>
+
+
+					</div>	<!-- END BOTTOM FOOTER -->
+
+
+				</div>	   <!-- End container -->										
+			</footer>	<!-- END FOOTER-2 -->
+
+			
+
+
+		</div>	<!-- END PAGE CONTENT -->
+
+
+
+
+		<!-- EXTERNAL SCRIPTS
+		============================================= -->	
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>	
+		<script src="js/fontawesome-all.js"></script>
+		<script src="js/jquery.easing.js"></script>
+		<script src="js/retina.js"></script>
+		<script src="js/jquery.scrollto.js"></script>
+		<script src="js/jquery.appear.js"></script>
+		<script src="js/register-form.js"></script>
+		<script src="js/contact-form.js"></script>
+		<script src="js/jquery.validate.min.js"></script>
+		<script src="js/jquery.ajaxchimp.min.js"></script>	
+		<script src="js/wow.js"></script>	
+				
+		<!-- Custom Script -->		
+		<script src="js/custom.js"></script>	
+
+		<script>
+			new WOW().init();
+		</script>
+
+									
+		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->															
+		<!--
+		<script>
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-XXXXX-X']);
+			_gaq.push(['_trackPageview']);
+
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+		-->
+
+
+
+	</body>
+
+
+
+</html>	
