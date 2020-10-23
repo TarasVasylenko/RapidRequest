@@ -5104,7 +5104,7 @@ footer .clearfix {
 @media(max-width: 585px) {
   .impressum main,
   .datenschutz main {
-    margin: 60px 0;
+    margin: 100px 0 60px;
   }
 }
 
